@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:helloworld/home_screen.dart';
+import 'package:helloworld/login-screen.dart';
+import 'package:helloworld/messanger/messanger_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomeScreen(),
+      home: const LoginScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
